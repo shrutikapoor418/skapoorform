@@ -122,3 +122,9 @@ align-items: center;
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
