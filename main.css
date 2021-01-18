@@ -8,20 +8,33 @@ html{
   font-family: 'Bodoni Moda', serif;
 }
 body{
-  background-color: #00af91;
+  background-color: #f8f1f1;
   margin-left: 15%;
+
   margin-right: 15%;
-  margin-bottom: 15%
+  margin-bottom: 15%;
 
+  border-style:groove;
+  border-color: #ff577f;
+    background: linear-gradient(to right,#eff8ff,#c9cbff);
 }
-
+h1{
+  color: #ff577f;;
+}
+p
+{
+  color: #583d72;
+}
+.l:hover
+{
+  background-color: #ff577f;
+}
 #wrapper{
   width:100%;
   height: 80vh;
   margin:0 auto;
   justify-content: center;
   align-items: center;
-
 
 }
 .form-container{
@@ -41,12 +54,12 @@ body{
   left: 0;
   width:100%;
   height: 30rem;
-  background: linear-gradient(to left,#ff577f,#ffcc29);
+  background: linear-gradient(to left,#9f5f80,#583d72);
   z-index: -1;
 border-bottom-right-radius:  75%;
 }
 .col-heading{
-  color: #09015f;
+  color:  #ffd5cd;
   font-size: 2rem;
   position: absolute;
   align-items: center;
@@ -56,11 +69,12 @@ border-bottom-right-radius:  75%;
 form{
 
 padding: 2rem 0;
-background-color: #ffcc29;
+background-color: #ffd5cd;
 border-radius: 1rem;
 box-shadow: 0 1px 1.5rem #ff577f;
 height: 40%;
 width:90%;
+color: #583d72;
 }
 input-group{
   width:90%;
